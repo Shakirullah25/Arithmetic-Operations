@@ -9,15 +9,17 @@ void main() {
 class ArithOperations {
   double x;
   double y;
-  
+
   ArithOperations(this.x, this.y);
 
   String add(String operationType) {
+    
     return "$operationType: ${x + y}";
   }
 
   String subtract(String operationType) {
     return "$operationType: ${x - y}";
   }
+
   
 }

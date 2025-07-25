@@ -1,23 +1,21 @@
 void main() {
   ArithOperations operations = ArithOperations(5, 6);
-  var add = operations.add("Addition");
+  var add = operations.add();
   var subtract = operations.subtract("Subtraction");
-  print(add);
+  print("");
   print(subtract);
 }
 
 class ArithOperations {
   double x;
   double y;
-  
   ArithOperations(this.x, this.y);
 
-  String add(String operationType) {
-    return "$operationType: ${x + y}";
+  double add() {
+    return x + y;
   }
 
   String subtract(String operationType) {
     return "$operationType: ${x - y}";
   }
-  
 }

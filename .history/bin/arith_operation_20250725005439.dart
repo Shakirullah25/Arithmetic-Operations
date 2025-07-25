@@ -1,6 +1,6 @@
 void main() {
   ArithOperations operations = ArithOperations(5, 6);
-  var add = operations.add("Addition");
+  var add = operations.add("Additon");
   var subtract = operations.subtract("Subtraction");
   print(add);
   print(subtract);
@@ -9,7 +9,6 @@ void main() {
 class ArithOperations {
   double x;
   double y;
-  
   ArithOperations(this.x, this.y);
 
   String add(String operationType) {
@@ -19,5 +18,4 @@ class ArithOperations {
   String subtract(String operationType) {
     return "$operationType: ${x - y}";
   }
-  
 }

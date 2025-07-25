@@ -9,7 +9,6 @@ void main() {
 class ArithOperations {
   double x;
   double y;
-  
   ArithOperations(this.x, this.y);
 
   String add(String operationType) {
@@ -19,5 +18,6 @@ class ArithOperations {
   String subtract(String operationType) {
     return "$operationType: ${x - y}";
   }
+
   
 }

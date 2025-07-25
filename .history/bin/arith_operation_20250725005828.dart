@@ -19,5 +19,6 @@ class ArithOperations {
   String subtract(String operationType) {
     return "$operationType: ${x - y}";
   }
+
   
 }
