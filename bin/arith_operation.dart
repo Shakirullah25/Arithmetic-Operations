@@ -18,7 +18,7 @@ void main() {
   print(subtract);
   print(multiply);
   print(divisionNoError);
-  if (divisionByZero != null) {
+  if (divisionByZero != null) {   // Throws no error if no exception occurs
     print(divisionByZero);
   }
 }
