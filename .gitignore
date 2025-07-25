@@ -3,4 +3,5 @@
 .dart_tool/
 lib/
 .history/
+pubspec.yaml/
 
